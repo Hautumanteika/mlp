@@ -1,0 +1,256 @@
+@media (min-width: 400px) {
+    .main{
+        height: 5000px;
+        width: 100%;
+        float: left;
+        background-color: white;
+    }
+    
+    .footer{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (min-width: 800px) {
+    .main{
+        height: 5000px;
+        width: 100%;
+        float: left;
+        background-color: aqua;
+    }
+    
+    .footer{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main{
+        height: 5000px;
+        width: 100%;
+        float: left;
+        background-color: blue;
+    }
+    
+    .footer{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (min-width: 2560px) {
+    .main{
+        height: 5000px;
+        width: 100%;
+        float: left;
+        background-color: black;
+    }
+    
+    .footer{
+        width: 100%;
+        float: left;
+        background-color: aqua;
+    }   
+
+    .feaure_text_right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feaure_text_left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 17.5%;
+        background-image: url("/images/info_role_play.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 17.5%;
+        background-image: url("/images/info_classes.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .faeture_classes{
+        width: 100%;
+        height: 12.5%;
+        background-color: wheat;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+        background-color: khaki;
+    }
+
+    .feature-container>div{
+        color: ivory;
+        font-size: 32px;
+        text-align: center;
+    } 
+
+    .recent_news{
+        display: flex;
+        width: 100%;
+        height: 35%;
+    }
+    
+    .news-container {
+        position: relative;
+        align-self: stretch;
+        flex: 1;
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+      
+    .news-container.bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .news-container.bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .news-container.bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }
+      
+    .news-container.bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }
+}
+
+@media (min-width: 1920px) {
+    .main{
+        height: 2500px;
+        width: 100%;
+        float: left;
+        background-color: black;
+    }
+    
+    .footer{
+        width: 100%;
+        float: left;
+        background-color: aqua;
+    }   
+
+    .feaure_text_right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feaure_text_left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 17.5%;
+        background-image: url("/images/info_role_play.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 17.5%;
+        background-image: url("/images/info_classes.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .faeture_classes{
+        width: 100%;
+        height: 12.5%;
+        background-color: wheat;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .feature-content>p{
+        padding-top: 25%;
+    }
+
+    .feature-container>div{
+        color: ivory;
+        font-size: 32px;
+        text-align: center;
+    } 
+
+    .recent_news{
+        padding-top: 1%;
+        display: flex;
+        width: 100%;
+        height: 35%;
+    }
+    
+    .news-container {
+        position: relative;
+        align-self: stretch;
+        flex: 1;
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 100%;   
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 7px;
+        box-shadow: inset 0 0 20px white;
+    }
+      
+    .news-container.bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .news-container.bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .news-container.bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }
+      
+    .news-container.bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }
+}
